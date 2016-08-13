@@ -1,1 +1,236 @@
+/*
+Title:      style.css for Leslie Mollner
+Author:     Leslie Mollner
+Copyright:  2016, All rights reserved
+*/
+
+/* ---------------------------------------------------------
+HTML, Body,
+--------------------------------------------------------- */
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+html	{
+	background-color: #f9f9f9;
+	font-family: 'Spinnaker';
+}
+
+body {
+	margin: 0 auto;
+	color: #666666;
+	font-style: normal;
+	font-size: 100%;
+}
+
+
+/* ---------------------------------------------------------
+Header, Navigation
+--------------------------------------------------------- */
+
+header	{
+	margin: 0;
+}
+
+nav {
+	max-width: 980px;
+	min-width: 500px;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+}
+
+ .intro_content 	{
+	 margin: 0;
+ }
+
+ .resume-areas ul {
+	 float: left;
+ }
+
+.resume-areas li img 	{
+	 display: inline-block;
+	 margin: 0 0 20px 0;
+	 padding: 6% 9%;
+	 list-style-type: none;
+	 float: left;
+	 text-align: left;
+ }
+
+ /* --------------------------------------------------------
+ Main
+ -------------------------------------------------------- */
+
+main {
+	margin: 0;
+}
+
+section {
+	max-width: 980px;
+	min-width: 500px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+p	{
+	margin: 10px 0 15px 0;
+	line-height: 1.5em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a:link, a:visited 	{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	padding-bottom: 1px;
+	color: #fff;
+}
+
+a:hover, a:active	{
+	text-decoration: none;
+	border-bottom: none;
+	padding-bottom: 1px;
+	color: #fff;
+}
+
+main a:link, a:visited 	{
+	text-decoration: none;
+	border-bottom: 1px dotted;
+	padding-bottom: 1px;
+	color: #607d8b;
+}
+
+main a:hover, a:active	{
+	text-decoration: none;
+	border-bottom: none;
+	padding-bottom: 1px;
+	color: #607d8b;
+}
+
+h1	{
+	margin: 0;
+	padding: 25px 0;
+	font-size: 400%;
+	color: #666666;
+	background-color: #d6e1e5;
+	text-align: center;
+}
+
+h2 	{
+	margin: 35px 0 0 0;
+	padding: 25px 0 25px 0;
+	font-size: 200%;
+	text-align: center;
+	background-color: #d6e1e5;
+}
+
+h3	{
+	margin: 15px 0 5px 0;
+	padding-top: 15px;
+	font-size: 150%;
+}
+
+h4	{
+	margin: 5px 0 5px 0;
+	padding: 5px 0;
+	font-size: 125%;
+}
+
+h5 	{
+	margin: 5px 0 5px 0;
+}
+
+h6 	{
+	margin: 5px 0 5px 0;
+}
+
+.heading_wrapper 	{
+	max-width: 980px;
+	min-width: 500px;
+	margin: 0 auto;
+	clear: both;
+}
+
+p	{
+	margin: 10px 0 25px 0;
+	line-height: 1.5em;
+}
+
+.bullets ul {
+	text-indent: 30px;
+}
+
+.bullets li {
+	margin: 5px 0 5px 40px;
+	padding: 10px 0 0 0;
+	line-height: 1.5em;
+	list-style-type: square;
+}
+
+
+/* ---------------------------------------------------------
+Footer, Contact
+--------------------------------------------------------- */
+
+.more ul	{
+	margin: 10px 0 0 0;
+}
+
+.more li	{
+	margin: 0 0 5px 0;
+	line-height: 20px;
+	list-style-type: none;
+}
+
+#qualities	{
+	margin: 20px 0 15px 0;
+	padding: 20px 0;
+	background-color: #d6e1e5;
+	text-align: center;
+}
+
+#copyright	{
+	font-size: 80%;
+	text-align: center;
+}
+
+footer {
+	margin: 0;
+	background-color: #d6e1e5;
+}
+
+.button 	{
+	max-width: 200px;
+	min-width: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.up	{
+	margin: 75px 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #d6e1e5;
+}
+
+.up a:link, a:visited,  	{
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.up a:hover, a:active {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.clearfix:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
 
