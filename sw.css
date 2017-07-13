@@ -1,3 +1,18 @@
 body {
   background-color:gray;
 }
+
+h1 {
+  font-family: helvetica;
+  color: white;
+}
+
+p {
+  font-family: arial;
+  color: white;
+}
+
+img {
+  border-style: solid;
+  border-width: 20px;
+}
